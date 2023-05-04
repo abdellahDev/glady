@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+spring :
+  application :
+    name : DEPOSIT-SERVICE
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: admin
+      username: admin
+      password: secret
+
+
+
+
+
+eureka :
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      default-zone : http://localhost:8761/eureka/
+    instance :
+      hostname : localhost
+

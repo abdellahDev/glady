@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mongeez>
+    <changeSet id="1" author="Abdellah">
+        <mongoScript><![CDATA[
+            if (!db.getCollectionNames().includes("deposit")) {
+                db.createCollection("deposit");
+            }
+        ]]></mongoScript>
+    </changeSet>
+</mongeez>
