@@ -68,6 +68,26 @@ verify that containers are running :
 $ docker ps
 ```
 
+
+local running :  
+
+### IF YOU HAVE PROBLEMS RUNNING THE docker-compose.yml FILE - i have a trick (not good practice though :p !)
+
+run on each project :  
+
+```sh
+$ mvn clean install
+```
+
+```sh
+
+$ mvn spring-boot:run
+```
+
+then:  
+run only docker-compose for data bases and kafka/zookeeper ( i will leave a docker compose file in each service just in case -> Waring : don't EVER do that xD)  
+
+
 ### Quick Acces to Apis : 
 
 SWAGGER :
