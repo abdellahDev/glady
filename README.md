@@ -58,6 +58,11 @@ for deposit : mongoDB
 
 to run application : go to root directory where docker-compose.yml file is located and run in terminal (or a command prompt) : 
 
+on each project :  
+```sh
+$ mvn clean install
+```
+
 ```sh
 $ docker-compose up
 ```
