@@ -127,4 +127,5 @@ Due to lack of time from my side:
 * add security : JWT token login based 
 * i would rather user a k8s cluster
 * I would use some reactive programming for when we have big amount of data to fetch
+* Add a Terraform config based system
 
